@@ -53,3 +53,12 @@ body {
 .shadow-none {
   box-shadow: none !important;
 }
+/* navigation tab css */
+
+.tab-content.active{
+    display: block;
+}
+
+.tab-content.hide{
+    display: none;
+}
