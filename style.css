@@ -55,10 +55,17 @@ body {
 }
 /* navigation tab css */
 
-.tab-content.active{
-    display: block;
+.tab-content.active {
+  display: block;
 }
 
-.tab-content.hide{
-    display: none;
+.tab-content.hide {
+  display: none;
+}
+
+.newTab {
+  border: none;
+  background: none;
+  color: blue;
+  text-decoration: underline;
 }
