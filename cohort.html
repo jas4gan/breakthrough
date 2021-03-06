@@ -33,28 +33,19 @@
         $(target_tab_selector).removeClass('hide');
         $(target_tab_selector).addClass('active');
       });
+
+      $("#img1").click(function(){
+        $("#link1")[0].click(); 
+        return false;
+      });
+
+      $("#img6").click(function(){
+        $("#link6")[0].click(); 
+        return false;
+      });
     });
 
-    // function clickTab(event) {
-    //  //get displaying tab content jQuery selector
-    //   var active_tab_selector = $('.navbar-nav > li.active > a').attr('href');
 
-    //   //find actived navigation and remove 'active' css
-    //   var actived_nav = $('.navbar-nav > li.active');
-    //   actived_nav.removeClass('active');
-
-    //   //add 'active' css into clicked navigation
-    //   $(this).parents('li').addClass('active');
-
-    //   //hide displaying tab content
-    //   $(active_tab_selector).removeClass('active');
-    //   $(active_tab_selector).addClass('hide');
-
-    //   //show target tab content
-    //   var target_tab_selector = $(this).attr('href');
-    //   $(target_tab_selector).removeClass('hide');
-    //   $(target_tab_selector).addClass('active');
-    // }
   </script>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -78,13 +69,13 @@
             <a class="navbar-brand" href="#">WebSiteName</a>
           </div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#main">Breakthrough</a></li>
-            <li><a href="#jas">Jaseslin</a></li>
-            <li><a href="#lilah">Khalilah</a></li>
-            <li><a href="#lillian">Lillian</a></li>
-            <li><a href="#esme">Esme Marie</a></li>
-            <li><a href="#isabelle">Isabelle</a></li>
-            <li><a href="#jannah">Jannah</a></li>
+            <li class="active"><a id="link0" href="#main">Breakthrough</a></li>
+            <li><a id="link1" href="#jas">Jaseslin</a></li>
+            <li><a id="link2" href="#lilah">Khalilah</a></li>
+            <li><a id="link3" href="#lillian">Lillian</a></li>
+            <li><a id="link4" href="#esme">Esme Marie</a></li>
+            <li><a id="link5" href="#isabelle">Isabelle</a></li>
+            <li><a id="link6" href="#jannah">Jannah</a></li>
           </ul>
         </div>
       </nav>
@@ -95,7 +86,8 @@
         this is the content of the main tab/section
         dummy - work in progress (figure out how to open the tab when click on the image)
         <div class="cohorts">
-          <a href="#jannah"><img src='image/jannah.PNG' /></a>
+          <img id="img1" src='image/jannah.PNG' />
+          <img id="img6" src='image/jannah.PNG' />
 
         </div>
 
