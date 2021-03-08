@@ -55,10 +55,56 @@ body {
 }
 /* navigation tab css */
 
-.tab-content.active{
-    display: block;
+.tab-content.active {
+  display: block;
 }
 
-.tab-content.hide{
-    display: none;
+.tab-content.hide {
+  display: none;
+}
+
+.newTab {
+  border: none;
+  background: none;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Image thumbnail styling */
+
+.member-item {
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+/* stops bg color from leaking outside the border: */;
+}
+
+.member-item .thumb {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.member-item .thumb img {
+  width: 100%;
+}
+
+.member-item h4 {
+  margin: 20px 0 10px 0;
+}
+
+.member-item span {
+  text-transform: uppercase;
+  color: #d8aa46;
+  font-weight: 600;
+}
+
+img {
+  border-radius: 10px;
 }
