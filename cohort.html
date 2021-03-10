@@ -45,6 +45,21 @@
         return false;
       });
 
+      $("#img3").click(function(){
+        $("#link3")[0].click(); 
+        return false;
+      });      
+      
+      $("#img4").click(function(){
+        $("#link4")[0].click(); 
+        return false;
+      });      
+      
+      $("#img5").click(function(){
+        $("#link5")[0].click(); 
+        return false;
+      });
+      
       $("#img6").click(function(){
         $("#link6")[0].click(); 
         return false;
@@ -89,8 +104,6 @@
 
       <!-- Main Tab -->
       <section id="main" class="tab-content active">
-        this is the content of the main tab/section
-        dummy - work in progress (need to refactor code for the image click code - make it dynamic)
         <!-- <div class="cohorts">
           <img id="img1" class="img-responsive" src='image/jas.jpg' height="147" />
           <img id="img2" class="img-responsive" src='image/khalilah.jpeg' width="150"/>
@@ -119,7 +132,7 @@
             <div class="col-md-4 col-sm-4">
               <div class="member-item">
                   <div class="thumb">
-                      <img src="image/lillian.jpg" alt="Lillian">
+                      <img id="img3" src="image/lillian.jpg" alt="Lillian">
                   </div>
                   <h4>Lillian Toh</h4>
                   <span>Full-Stack Developer</span>
@@ -128,7 +141,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="member-item">
                 <div class="thumb">
-                    <img src="image/jannah.PNG" alt="Esme">
+                    <img id="img4" src="image/jannah.PNG" alt="Esme">
                 </div>
                 <h4>Esme</h4>
                 <span>Full Stack Developer</span>
@@ -137,7 +150,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="member-item">
                 <div class="thumb">
-                    <img src="image/jannah.PNG" alt="Isabelle">
+                    <img id="img5" src="image/jannah.PNG" alt="Isabelle">
                 </div>
                 <h4>Isabelle</h4>
                 <span>Full Stack Developer</span>
@@ -146,7 +159,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="member-item">
               <div class="thumb">
-                  <img id="img6" src="image/jannah.PNG" alt="Jannah">
+                  <img id="img6" src="image/jannah.jpg" alt="Jannah">
               </div>
               <h4>Jannah</h4>
               <span>Full Stack Developer</span>
@@ -915,7 +928,8 @@
                       <img height="180px" src="image/sejiwa-event-web.PNG"/>
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is a group project with Esme Marie to create a site to gather volunteers for snall organization or individual for a charity event</span>
+                    <span class="text-secondary">This is a group project with Esme Marie to develop a charity web application. The purpose of the site is to gather volunteers 
+                      for small organizations or individuals organizing an event in a smaller scale.</span>
  
                     <h6>Github</h6>
                     <a href="https://github.com/esme-marie/sejiwa" class="newTab" target="_blank">Sejiwa Repo</a>
