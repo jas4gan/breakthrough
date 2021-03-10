@@ -48,13 +48,13 @@
       $("#img3").click(function(){
         $("#link3")[0].click(); 
         return false;
-      });
-
+      });      
+      
       $("#img4").click(function(){
         $("#link4")[0].click(); 
         return false;
-      });
-
+      });      
+      
       $("#img5").click(function(){
         $("#link5")[0].click(); 
         return false;
@@ -104,8 +104,6 @@
 
       <!-- Main Tab -->
       <section id="main" class="tab-content active">
-        this is the content of the main tab/section
-        dummy - work in progress (need to refactor code for the image click code - make it dynamic)
         <!-- <div class="cohorts">
           <img id="img1" class="img-responsive" src='image/jas.jpg' height="147" />
           <img id="img2" class="img-responsive" src='image/khalilah.jpeg' width="150"/>
@@ -161,7 +159,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="member-item">
               <div class="thumb">
-                  <img id="img6" src="image/jannah.PNG" alt="Isabelle">
+                  <img id="img6" src="image/jannah.jpg" alt="Jannah">
               </div>
               <h4>Jannah</h4>
               <span>Full Stack Developer</span>
@@ -850,7 +848,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle"
+                  <img src="image/jannah.jpg" alt="Admin" class="rounded-circle"
                     width="150">
                   <div class="mt-3">
                     <h4>Jannah</h4>
@@ -959,7 +957,7 @@
               </div>
             </div>
             <div class="row gutters-sm">
-              <div class="col-sm-6 mb-3">
+              <div class="col-sm-12 mb-6">
                 <div class="card h-100">
                   <div class="card-body">
                     <h6 class="d-flex align-items-center mb-3"><i
@@ -968,10 +966,11 @@
                     <h6>Technology</h6>
                     <span class="text-secondary">Vue JS, Vuetify, Node/Express, MySQL, Google Login API</span>
                     <div class="thumb">
-                      <img height="180px" src="image/sejiwa-event-web.PNG"/>
+                      <img height="180px" src="image/jannah/sejiwa-event-web.PNG"/>
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is a group project with Esme Marie to create a site to gather volunteers for snall organization or individual for a charity event</span>
+                    <span class="text-secondary">This is a group project with Esme Marie to develop a charity web application. The purpose of the site is to gather volunteers 
+                      for small organizations or individuals organizing a charity campaign.</span>
  
                     <h6>Github</h6>
                     <a href="https://github.com/esme-marie/sejiwa" class="newTab" target="_blank">Sejiwa Repo</a>
@@ -985,31 +984,37 @@
                   <div class="card-body">
                     <h6 class="d-flex align-items-center mb-3"><i
                         class="material-icons text-info mr-2">Makan Bah!</i> Feature Extension Project</h6>
-                    <h6>Web Design</h6>
-                    <div class="progress mb-3" style="height: 5px">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h6>Website Markup</h6>
-                    <div class="progress mb-3" style="height: 5px">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>One Page</small>
-                    <div class="progress mb-3" style="height: 5px">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>Mobile Template</small>
-                    <div class="progress mb-3" style="height: 5px">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <small>Backend API</small>
-                    <div class="progress mb-3" style="height: 5px">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                        <hr>
+                        <h6>Technology</h6>
+                        <span class="text-secondary">React JS, Node/Express - Bcrypt & JSON Web Token, MySQL</span>
+                        <div class="thumb">
+                          <img height="180px" src="image/jannah/makanbah-web.PNG"/>
+                        </div>
+                        <h6>Description</h6>
+                        <span class="text-secondary">This is a feature extension to an app build by Khalilah called 'Makan Bah!'. The extensions consist of member login/logout features with membership registration, a landing page and a main page. 
+                          The landing and main page components are built in order to differentiate between public and private access.</span>
+     
+                        <a href="https://github.com/njas17/MakanBah" class="newTab" target="_blank">Makan Bah Github Repo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h6 class="d-flex align-items-center mb-3"><i
+                        class="material-icons text-info mr-2">Bor-Lend</i> Solo MVP Project</h6>
+                        <hr>
+                        <h6>Technology</h6>
+                        <span class="text-secondary">Vue JS, Node/Express, MySQL, Vue Bootstrap</span>
+                        <div class="thumb">
+                          <img height="180px" src="image/jannah/borlend-web.PNG"/>
+                        </div>
+                        <h6>Description</h6>
+                        <span class="text-secondary">This is an individual project to develop a working MVP app. The site called Bor-Lend is a Borrow Lend Tracker web application.
+                          The purpose of the application is to monitor an individual's borrowing and lending activities. 
+                        </span>
+     
+                        <a href="https://github.com/njas17/bor-lend" class="newTab" target="_blank">Bor-lend Github Repo</a>
                   </div>
                 </div>
               </div>
