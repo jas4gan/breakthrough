@@ -109,3 +109,7 @@ img {
   border-radius: 10px;
 }
 
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
