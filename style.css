@@ -109,6 +109,12 @@ img {
   border-radius: 10px;
 }
 
+.member-item .thumb img {
+  float: left;
+  height: 400px;
+  object-fit: cover;
+}
+
 .responsive {
   max-width: 80%;
   height: auto;
