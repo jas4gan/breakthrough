@@ -8,6 +8,8 @@
   <title>Cohort 2020 - 2021</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
   <script>
@@ -35,33 +37,33 @@
         $(target_tab_selector).addClass('active');
       });
 
-      $("#img1").click(function(){
-        $("#link1")[0].click(); 
+      $("#img1").click(function () {
+        $("#link1")[0].click();
         return false;
       });
 
-      $("#img2").click(function(){
-        $("#link2")[0].click(); 
+      $("#img2").click(function () {
+        $("#link2")[0].click();
         return false;
       });
 
-      $("#img3").click(function(){
-        $("#link3")[0].click(); 
-        return false;
-      });      
-      
-      $("#img4").click(function(){
-        $("#link4")[0].click(); 
-        return false;
-      });      
-      
-      $("#img5").click(function(){
-        $("#link5")[0].click(); 
+      $("#img3").click(function () {
+        $("#link3")[0].click();
         return false;
       });
 
-      $("#img6").click(function(){
-        $("#link6")[0].click(); 
+      $("#img4").click(function () {
+        $("#link4")[0].click();
+        return false;
+      });
+
+      $("#img5").click(function () {
+        $("#link5")[0].click();
+        return false;
+      });
+
+      $("#img6").click(function () {
+        $("#link6")[0].click();
         return false;
       });
     });
@@ -86,9 +88,8 @@
 
       <nav class="navbar navbar-default">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Breakthrough</a>
-          </div>
+          <a href="breakthrough.html"><img class="img-fluid img-thumbnail" src="image/breakthrough.PNG" alt="breakthrough"></a>
+          <!-- <a class="navbar-brand" href="breakthrough.html">Breakthrough</a> -->
           <ul class="nav navbar-nav">
             <li class="active"><a id="link0" href="#main">Cohort 2020 - 2021</a></li>
             <li><a id="link1" href="#jas">Jaseslin</a></li>
@@ -109,62 +110,64 @@
           <img id="img2" class="img-responsive" src='image/khalilah.jpeg' width="150"/>
           <img id="img6" class="img-responsive" src='image/jannah.PNG' />
         </div> -->
-          <div class="row">
-            <div class="col-md-4 col-sm-4">
-                <div class="member-item">
-                    <div class="thumb">
-                        <img id="img1" src="image/jas.jpg" alt="Jaseslin">
-                    </div>
-                    <h4>Jaseslin</h4>
-                    <span>Full Stack Developer</span>
-                </div> <!-- /.member-item -->
-            </div> <!-- /.col-md-4 -->
-            <div class="col-md-4 col-sm-4">
-                <div class="member-item">
-                    <div class="thumb">
-                        <img id="img2" src="image/khalilah.jpeg" alt="Khalilah">
-                    </div>
-                    <h4>Khalilah Khalil</h4>
-                    <span>Full Stack Developer</span>
-                </div> <!-- /.member-item -->
-            </div> <!-- /.col-md-4 -->
-            <div class="col-md-4 col-sm-4">
-              <div class="member-item">
-                  <div class="thumb">
-                      <img id="img3" src="image/lillian.jpg" alt="Lillian Toh">
-                  </div>
-                  <h4>Lillian Toh</h4>
-                  <span>Full-Stack Developer</span>
-              </div> <!-- /.member-item -->
-          </div> <!-- /.col-md-4 -->
+        <div class="row">
           <div class="col-md-4 col-sm-4">
             <div class="member-item">
-                <div class="thumb">
-                    <img id="img4" src="image/esme/esme-marie.jpg" alt="Esme">
-                </div>
-                <h4>Esme-Marie</h4>
-                <span>Full Stack Developer</span>
-            </div> <!-- /.member-item -->
-          </div> <!-- /.col-md-4 -->
-          <div class="col-md-4 col-sm-4">
-            <div class="member-item">
-                <div class="thumb">
-                    <img id="img5" src="image/Isabelle photo.jpg" alt="Isabelle">
-                </div>
-                <h4>Isabelle</h4>
-                <span>Full Stack Developer</span>
-            </div> <!-- /.member-item -->
-        </div> <!-- /.col-md-4 -->
-        <div class="col-md-4 col-sm-4">
-          <div class="member-item">
               <div class="thumb">
-                  <img id="img6" src="image/jannah/main.jpg" alt="Jannah">
+                <img id="img1" src="image/jas1.jpg" alt="Jaseslin">
+              </div>
+              <h4>Jaseslin</h4>
+              <span>Full Stack Developer</span>
+            </div> <!-- /.member-item -->
+          </div> <!-- /.col-md-4 -->
+          <div class="col-md-4 col-sm-4">
+            <div class="member-item">
+              <div class="thumb">
+                <img id="img2" src="image/khalilah.jpeg" alt="Khalilah">
+              </div>
+              <h4>Khalilah Khalil</h4>
+              <span>Full Stack Developer</span>
+            </div> <!-- /.member-item -->
+          </div> <!-- /.col-md-4 -->
+          <div class="col-md-4 col-sm-4">
+            <div class="member-item">
+              <div class="thumb">
+                <img id="img3" src="image/lillian.jpg" alt="Lillian Toh">
+              </div>
+              <h4>Lillian Toh</h4>
+              <span>Full Stack Developer</span>
+            </div> <!-- /.member-item -->
+          </div> <!-- /.col-md-4 -->
+        </div>
+        <div class="rom">
+          <div class="col-md-4 col-sm-4">
+            <div class="member-item">
+              <div class="thumb">
+                <img id="img4" src="image/esme/esme-marie.jpg" alt="Esme">
+              </div>
+              <h4>Esme-Marie</h4>
+              <span>Full Stack Developer</span>
+            </div> <!-- /.member-item -->
+          </div> <!-- /.col-md-4 -->
+          <div class="col-md-4 col-sm-4">
+            <div class="member-item">
+              <div class="thumb">
+                <img id="img5" src="image/Isabelle photo.jpg" alt="Isabelle">
+              </div>
+              <h4>Isabelle</h4>
+              <span>Full Stack Developer</span>
+            </div> <!-- /.member-item -->
+          </div> <!-- /.col-md-4 -->
+          <div class="col-md-4 col-sm-4">
+            <div class="member-item">
+              <div class="thumb">
+                <img id="img6" src="image/jannah/main.jpg" alt="Jannah">
               </div>
               <h4>Jannah</h4>
               <span>Software Engineer</span>
-          </div> <!-- /.member-item -->
-        </div> <!-- /.col-md-4 -->
-      </div> <!-- /.row -->
+            </div> <!-- /.member-item -->
+          </div> <!-- /.col-md-4 -->
+        </div> <!-- /.row -->
       </section>
       <!-- /Main -->
 
@@ -175,221 +178,203 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="image/jas.jpg" alt="Admin" class="rounded-circle"
-                    width="150">
+                  <div class="thumb">
+                  <img src="image/jas1.jpg" alt="Admin" class="img-fluid img-thumbnail p-3 rounded-circle" width="300">
+                  </div>
                   <div class="mt-3">
                     <h4>Jas</h4>
                     <p class="text-secondary mb-1">Full Stack Developer</p>
                     <p class="text-muted font-size-sm">Penang island, MY</p>
-                    <button class="btn btn-primary">Follow</button>
-                    <button class="btn btn-outline-primary">Message</button>
+                    <a class="text-muted font-size-sm newTab" href="mailto:jaseslin@gmail.com">
+                      jaseslin@gmail.com
+                    </a>
                   </div>
                 </div>
+              
               </div>
             </div>
             <div class="card mt-3">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              <!-- <ul class="list-group list-group-flush"> -->
+              <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <div class="d-flex flex-column align-items-center text-center">
+
+                  <a href="https://jas4gan.github.io/jas/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="feather feather-linkedin mr-2 icon-inline">
                       <circle cx="12" cy="12" r="10"></circle>
                       <line x1="2" y1="12" x2="22" y2="12"></line>
                       <path
                         d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
                       </path>
-                    </svg>Website</h6>
-                  <a href="">
-                    <button class="newTab" type="submit" formtarget="_blank">Not available</button>
-                  </form>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    </svg>
+                  </a>
+                  <a href="https://github.com/jas4gan"  target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="feather feather-github mr-2 icon-inline">
                       <path
                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                       </path>
-                    </svg>Github</h6>
-                  <span class="text-secondary">
-                    <a href="https://github.com/jas4gan"  class="newTab" target="_blank">Jaseslin</a>
-                  </span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    </svg>
+                  </a>
+                  <a href="https://twitter.com/jaseslin"  target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="feather feather-twitter mr-2 icon-inline text-info">
                       <path
                         d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
                       </path>
-                    </svg>Twitter</h6>
-                    <a href="https://twitter.com/jaseslin"  class="newTab" target="_blank">Jaseslin</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    </svg>
+                  </a>
+                  <a href="https://instagram.com/jaseslin"  target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="feather feather-instagram mr-2 icon-inline text-danger">
                       <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>Instagram</h6>
-                    <a href="https://instagram.com/jaseslin"  class="newTab" target="_blank">Jaseslin</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    </svg>
+                  </a>
+                  <a href="https://facebook.com/jaseslin"  target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="feather feather-facebook mr-2 icon-inline text-primary">
                       <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>Facebook</h6>
-                    <a href="https://facebook.com/jaseslin"  class="newTab" target="_blank">Jaseslin</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-                    <circle cx="4" cy="5" r="2"></circle>
-                    <rect x="2" y="10.25" width="4" height="11.75"></rect>
-                    <path d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10"/>
-                  </svg>
-                  LinkedIn</h6><a href="https://linkedin.com/in/jaseslin"  class="newTab" target="_blank">Jaseslin</a>
-                </li>
-              </ul>
+                    </svg>
+                  </a>
+
+                  <a href="https://linkedin.com/in/jaseslin"  target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-linkedin">
+                      <circle cx="4" cy="5" r="2"></circle>
+                      <rect x="2" y="10.25" width="4" height="11.75"></rect>
+                      <path
+                        d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10" />
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+              <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">              
+                <p>🛫 Minimalist who 💖 nature, travel and culture 🌏</p>
+              </div>
+              <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <p>🌌 Exploring Heroku Postgres and github portfolio 🌋</p>
+              </div>
+              <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <p>🌈 Be grateful at all times for everything, good or bad, happen for my good 🕊️</p>
+              </div>
+              <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <p>🌊 Life Without Limits by Nick Vujicic 🐳</p>
+              </div>              
             </div>
           </div>
           <div class="col-md-8">
-            <div class="card mb-3">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Full Name</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Jaseslin Gan
+            <div class="row gutters-sm">
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>VicTrees </b>
+                    <i class="material-icons text-info"> 20 - 28 Feb 2021</i>
+                    <span class="label label-success pull-right">Completed</span>
+                    
+                    
+                    <p>
+                      <i class="material-icons text-info mr-2"><a class=" newTab"
+                          href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po"
+                           target="_blank">Runner up</a> of The New Relic Hack The Planet 2021</i>
+                    </p>
+                    <hr>
+
+                    <h6>Technology</h6>
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global
+                      Forest Watch API, Instagram API, Heroku, New Relic One</span>
+
+                    <div class="thumb">
+                      <img class="img-fluid img-thumbnail" width="346px" src="image/victrees.png" />
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">This is a group project with all cohorts. A global climate hackathon
+                      organised by DEV and New Relic to combat deforestation by creating awareness with our actionable solutions.</span>
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                      <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1"
+                      class="btn btn-default mt-5" role="button" target="_blank">Submission</a>
+                      <a href="https://victrees.herokuapp.com" class="btn btn-default mt-5" role="button" target="_blank">Link</a>
+                      <a href="https://github.com/lilliantoh/newrelic" class="btn btn-default mt-5" role="button" target="_blank">Github</a>
+                    </h5>
                   </div>
                 </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Email</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    jaseslin@gmail.com
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Address</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Penang island, MY
+              </div>
+
+
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>Avenue </b>
+                    <i class="material-icons text-info"> 24 Jan - 15 Feb 2021</i>
+                    <span class="label label-info pull-right">Ongoing</span>
+                    
+                    <hr>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Leaflet API, Facebook Login
+                      API, HelloSign API, Nivo Chart</span>
+                    <div class="thumb">
+                      <img class="img-fluid img-thumbnail" width="346px" src="image/avenue/homepage.PNG" />
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">This is a group project with cohort Lillian to create a site built for property managers and property owners. The application consists of a dynamic dashboard, rent calculator, embedded digital signature form, Facebook login and geo-mapping to aid managers in their daily operational tasks.</span>
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                      <a href="https://github.com/lilliantoh/avenue" class="btn btn-default mt-5" role="button" target="_blank">Github</a>
+                    </h5>
                   </div>
                 </div>
               </div>
             </div>
             <div class="row gutters-sm">
-              
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Victrees</i> New Relic Hackathon</h6>
-                        <a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po" class="newTab" target="_blank">Runner-Up</a>
-                        
+                    <b>Avenue </b>
+                    <i class="material-icons text-info"> 14 - 19 Jan 2021</i>
+                    <span class="label label-success pull-right">Completed</span>                    
+                    <hr>
                     <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global Forest Watch API, Instagram API, Heroku, New Relic</span>  
-                  
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Facebook Login API, HelloSign
+                      API</span>
                     <div class="thumb">
-                      <img width="346px" src="image/victrees.png"/>
+                      <img class="img-fluid img-thumbnail" width="346px" src="image/avenue/dashboard_feature_ext.png" />
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is the first hackathon we participated after our bootcamp graduation. This is a group project to create a site to combat deforestation and help the earth recover to a time when trees were abundant.</span>
+                    <span class="text-secondary">This solo project is forked from Lillian's repository to work as a feature extension project. Facebook login and embedded digital signature form were added.</span>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <a href="https://github.com/jas4gan/avenue" class="btn btn-default mt-5" role="button" target="_blank">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                    <h6>Github</h6>
-                    <a href="https://github.com/lilliantoh/newrelic" class="newTab" target="_blank">Victrees</a>
-                    <h6>Application Link</h6>
-                    <a href="https://victrees.herokuapp.com" class="newTab" target="_blank">Victrees</a>
-                    <h6>Website Link</h6>
-                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="newTab" target="_blank">Victrees</a>
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>Bwyd </b>
+                    <i class="material-icons text-info"> 6 - 12 Jan 2021</i>
+                    <span class="label label-info pull-right">Ongoing</span>
                     
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-sm-6 mb-3">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Avenue</i> Final Collaboration Project</h6>
+                    
+                    <hr>
                     <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Leaflet API, Facebook Login API, HelloSign API</span>    
+                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Bootstrap</span>
+
                     <div class="thumb">
-                      <img width="346px" src="image/avenue/homepage.PNG"/>
+                      <img class="img-fluid img-thumbnail" width="346px" src="image/bwyd.png" />
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is a collaboration project with Lillian to create a site built for property managers and property owners. It streamlines property information in one place.</span>
-                    <h6>Added features</h6>
-                    <span class="text-secondary">
-                      <ul>
-                        <li>Landing Page</li>
-                        <li>Unauthourized Page</li>
-                        <li>Calendar</li>
-                        <li>Leaflet API</li>
-                        <li>Pie Chart</li>
-                        <li>Facebook API interact with root level</li>
-                        <li>HelloSign API development mode</li>                        
-                        <li>Calculator by Esme during feature extension period</li>
-                      </ul>
-                    </span>
-                    <h6>Github</h6>
-                    <a href="https://github.com/lilliantoh/avenue" class="newTab" target="_blank">Avenue</a>
-                  </div>
-                </div>
-              </div>
-            
-              <div class="col-sm-6 mb-3">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Avenue</i> Feature Extension Project</h6>
-                        <hr>
-                    <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Facebook Login API, HelloSign API</span>  
-                  
-                    <div class="thumb">
-                      <img width="346px" src="image/avenue/dashboard_feature_ext.png"/>
+                    <span class="text-secondary">Bwyd means food in Welsh. This is an individual project to develop a working MVP application. The purpose of this application is to create a site built for local community to share, exchange, sell or buy food. </span>
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <a href="https://github.com/jas4gan/bwyd" class="btn btn-default mt-5" role="button" target="_blank">Github</a>
                     </div>
-                    <h6>Description</h6>
-                    <span class="text-secondary">This is a feature extension project initiated by Lillian to create a site built for property managers and property owners.It streamlines property information in one place. </span>
-
-                    <h6>Feature Extension</h6>
-                    <span class="text-secondary"><ul>
-                        <li>
-                          Facebook login API at client side 
-                        </li>
-                        <li>HelloSign API partially done</li>
-                      </ul></span>
-                    <h6>Github</h6>
-                    <a href="https://github.com/jas4gan/avenue" class="newTab" target="_blank">Feature Extension Avenue</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-6 mb-3">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Bwyd</i> Minimum Viable Product</h6>
-                        <hr>
-                    <h6>Technology</h6>
-                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Bootstrap</span>  
-                  
-                    <div class="thumb">
-                      <img width="346px" src="image/bwyd.png"/>
-                    </div>
-                    <h6>Description</h6>
-                    <span class="text-secondary">Bwyd means food in Welsh. This is a solo project to create a site built for community to share, sell or buy food. </span>
-                    <h6>Github</h6>
-                    <a href="https://github.com/jas4gan/bwyd" class="newTab" target="_blank">Bwyd</a>
                   </div>
                 </div>
               </div>
@@ -407,175 +392,81 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="image/khalilah.jpeg" alt="Admin" class="rounded-circle"
-                    width="150">
-                  <div class="mt-3">
+                  <div class="member-item">
+                    <div class="thumb">
+                  <img class="img-fluid img-thumbnail" src="image/khalilah.jpeg" alt="khalilah"  class="p-3 rounded-circle" width="300">
+                    </div>
                     <h4>Khalilah</h4>
                     <p class="text-secondary mb-1">Full Stack Developer</p>
                     <p class="text-muted font-size-sm">Kota Kinabalu, Sabah, MY</p>
-                    <button class="btn btn-primary">Follow</button>
-                    <button class="btn btn-outline-primary">Message</button>
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                      <a href="mailto:dygkhalilah@gmail.com" class="newTab" target="_blank">
+                        <button class="btn btn-danger">dygkhalilah@gmail.com </button>
+                      </a>                   
+                    </h5>  
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mt-3">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-globe mr-2 icon-inline">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <path
-                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                      </path>
-                    </svg>Website</h6>
-                    <a href="http://khalilahkhalil.superhi.com/"  class="newTab" target="_blank">Khalilah</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-github mr-2 icon-inline">
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                      </path>
-                    </svg>Github</h6>
-                    <a href="https://github.com/dasikha"  class="newTab" target="_blank">Khalilah</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-twitter mr-2 icon-inline text-info">
-                      <path
-                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                      </path>
-                    </svg>Twitter</h6>
-                    Not available
-                    </form>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-instagram mr-2 icon-inline text-danger">
-                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>Instagram</h6>
-                    Not available
-                    </form>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-facebook mr-2 icon-inline text-primary">
-                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>Facebook</h6>
-                    Not available
-                    </form>
-                    </svg>LinkedIn</h6>
-                  <a href="https://www.linkedin.com/in/khalilah-khalil-05b19b16a/"  class="newTab" target="_blank">Khalilah</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-                    <circle cx="4" cy="5" r="2"></circle>
-                    <rect x="2" y="10.25" width="4" height="11.75"></rect>
-                    <path d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10"/>
-                </li>
-              </ul>
+                <p>I like ceramic mugs and cats 🍵 🐱</p>
+                <p>Currently experimenting with Threejs 🪐</p>
+                <p>Diving in Figma and Tailwind CSS 💻✨</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">           
+                    <a href="http://khalilahkhalil.superhi.com/" class="newTab" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-linkedin mr-2 icon-inline">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path 
+                          d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                      </svg>
+                    </a>    
+                    <a href="https://github.com/dasikha" class="newTab" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-github mr-2 icon-inline">
+                        <path
+                          d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                      </svg>
+                    </a>                          
+                    <a href="https://www.linkedin.com/in/khalilah-khalil-05b19b16a/" class="newTab" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-linkedin">
+                        <circle cx="4" cy="5" r="2"></circle>
+                        <rect x="2" y="10.25" width="4" height="11.75"></rect>
+                        <path
+                          d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>    
             </div>
           </div>
+        </div>
+
+          <!-- Infinity App -->
           <div class="col-md-8">
-            <div class="card mb-3">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Full Name</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Dayang Siti Khalilah binti Datu Khalil
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Email</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    dygkhalilah@gmail.com
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Phone</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    -
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Mobile</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    +6017 839 8700
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Address</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Kota Kinabalu, Sabah, MY
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div class="row gutters-sm">
-              <div class="col-sm-6 mb-3">
+              <div class="col-sm-12 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Victrees</i> New Relic Hackathon</h6>
-                        <a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po" class="newTab" target="_blank">Runner-Up</a>
-                        
-                    <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global Forest Watch API, Instagram API, Heroku, New Relic</span>  
-                  
-                    <div class="thumb">
-                      <img width="270px" src="image/victrees.png"/>
+                    <b>Infinity App</b>
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2"></i>
+                      Final CodeOp's Collaboration Project, Jan - Feb 2021</h6>    
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="350px" height="200px" src="image/infinity.png"/>
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">Our first hackathon we participated after our bootcamp graduation. This is a group project to create a site to combat deforestation and help the earth recover to a time when trees were abundant.</span>
-
-                    <h6>Github</h6>
-                    <a href="https://github.com/lilliantoh/newrelic" class="newTab" target="_blank">Victrees</a>
-                    <h6>Application Link</h6>
-                    <a href="https://victrees.herokuapp.com" class="newTab" target="_blank">Victrees</a>
-                    <h6>Website Link</h6>
-                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="newTab" target="_blank">Victrees</a>
-                    
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-sm-6 mb-3">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Infinity</i> Final Collaboration Project</h6>
+                    <span class="text-secondary">A collaboration project with Isabelle to create a Infinity App for
+                      students who need an auditory and visual style of learning. The product is a learning platform
+                      that allows interactive learning with 3D and quiz of the solar system. Unlike books of static
+                      text-only websites. Our product helps making learning more fun and multi-sensory (during and post
+                      pandemic season).</span>
                     <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Three JS, CSS, Bootstrap, NASA API, Random Quotes API</span>    
-                    <div class="thumb">
-                      <img width="270px" src="image/infinity.png"/>
-                    </div>
-                    <h6>Description</h6>
-                    <span class="text-secondary">A collaboration project with Isabelle to create a Infinity App for students who need an auditory and visual style of learning. The product is a learning platform that allows interactive learning with 3D and quiz of the solar system. Unlike books of static text-only websites. Our product helps making learning more fun and multi-sensory (during and post pandemic season).</span>
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Three JS, drei, CSS, Bootstrap, NASA API, Random Quotes API, Solar Scope iFrame, Enzyme, Jest</span>
                     <h6>Current features</h6>
                     <span class="text-secondary">
                       <ul>
@@ -586,52 +477,88 @@
                         <li>Random Quotes API</li>
                       </ul>
                     </span>
-                    <h6>Github</h6>
-                    <a href="https://github.com/dasikha/infinity" class="newTab" target="_blank">Infinity</a>
+                    <a href="https://github.com/dasikha/infinity" class="newTab" target="_blank">Github Repo | Infinity
+                      App</a>
                   </div>
                 </div>
               </div>
-            
+
+              <!-- Victrees App -->
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
+                    <b>Victrees App</b>
                     <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Bor-lend</i> Feature Extension Project</h6>
-                        <hr>
-                    <h6>Technology</h6>
-                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Bootstrap, vue-chartjs</span>  
-                  
-                    <div class="thumb">
-                      <img width="270px" src="image/bor-lend.png"/>
+                        class="material-icons text-info mr-2"></i> Runner Up of of The New Relic 'Hack The Planet' 2021</h6>
+                        <a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po" class="newTab" target="_blank"></a>
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="350px" height="200px" src="image/victrees.png"/>
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is a feature extension project where we add feature extension from another students. I have added a graph that visually represents each of user's borrowing or lending. The MVP was created by a collegue from CodeOp Kuala Lumpur. The overall project is to assist user to monitor the borrowing and lending activities/history between a borrower to a lender or vice-versa. At the same time, the application should promote and instill healthy borrowing habits in the user.</span>
+                    <span class="text-secondary">Participated the 'Hack the Planet' Hackathon organised by DEV and NewRelic with our Victress App to help combat deforestation by creating awareness with our actionable solutions. My team and I won runner up!</span><br/><br/>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global Forest Watch API, Instagram API, Heroku, New Relic</span>  
+                    <br><br>
+                    <a href="https://github.com/lilliantoh/newrelic" class="newTab" target="_blank">Github Repo | Victrees </a><br/>
+                    <a href="https://victrees.herokuapp.com" class="newTab" target="_blank">Heroku | Victrees</a><br/>
+                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="newTab" target="_blank">The Relicans | Victrees</a>
+                  </div>
+                </div>
+              </div>
 
+              <!-- Bor-lend App -->
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>Bor-lend</b>
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2"></i>
+                      CodeOp's Feature Extension Project, Jan 2021</h6>
+                    <hr>
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="350px" height="200px" src="image/bor-lend.png"/>
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">This is a feature extension project where we add feature extension from
+                      another students. I have added a graph that visually represents each of user's borrowing or
+                      lending. The MVP was created by a collegue from CodeOp Kuala Lumpur. The overall project is to
+                      assist user to monitor the borrowing and lending activities/history between a borrower to a lender
+                      or vice-versa. At the same time, the application should promote and instill healthy borrowing
+                      habits in the user.</span>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Bootstrap, vue-chartjs</span>
                     <h6>Feature Extension</h6>
-                    <span class="text-secondary"><ul>
+                    <span class="text-secondary">
+                      <ul>
                         <li>
                           A borrow and lending graph using vue-chartjs.
                         </li>
-                      </ul></span>
-                    <h6>Github</h6>
-                    <a href="https://github.com/dasikha/bor-lend-graph" class="newTab" target="_blank">Feature Extension Bor-lend App</a>
+                      </ul>
+                    </span>
+                    <a href="https://github.com/dasikha/bor-lend-graph" class="newTab" target="_blank">Github Repo |
+                      Bor-lend App</a>
                   </div>
                 </div>
               </div>
+
+              <!-- Makanbah -->
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Makanbah</i> Minimum Viable Product</h6>
-                        <hr>
-                    <h6>Technology</h6>
-                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Bootstrap</span>  
-                  
-                    <div class="thumb">
-                      <img width="270px" src="image/Makanbah.png"/>
+                    <b>Makanbah</b>
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2"></i>
+                      CodeOp's Solo Project, Jan 2021 </h6>
+                    <hr>
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="350px" height="200px" src="image/Makanbah.png"/>
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">Makanbah! is a restaurant recommendations website, which allows it's users to search for restaurants nearby them and also create a personalised bucket-list of their restaurant choices. The name "Makan bah!" was derived from the word "Makan", which means "Eat" in the English language, and "bah" from Sabahan slang which is a colloquial words used in Sabah, Malaysia. With Makanbah!, you don't have to worry again where to eat next!</span>
+                    <span class="text-secondary">Makanbah! is a restaurant recommendations website, which allows it's
+                      users to search for restaurants nearby them and also create a personalised bucket-list of their
+                      restaurant choices. The name "Makan bah!" was derived from the word "Makan", which means "Eat" in
+                      the English language, and "bah" from Sabahan slang which is a colloquial words used in Sabah,
+                      Malaysia. With Makanbah!, you don't have to worry again where to eat next!</span>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Bootstrap</span>
                     <h6>Current features</h6>
                     <span class="text-secondary">
                       <ul>
@@ -640,12 +567,11 @@
                         <li>Add to bucket-list feature</li>
                       </ul>
                     </span>
-                    <h6>Github</h6>
-                    <a href="https://github.com/dasikha/MakanBah" class="newTab" target="_blank">Makanbah</a>
+                    <a href="https://github.com/dasikha/MakanBah" class="newTab" target="_blank">Github Repo |
+                      Makanbah</a>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -659,150 +585,175 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="image/lillian.jpg" alt="Admin" class="rounded-circle"
-                    width="150">
-                  <div class="mt-3">
+                  <div class="member-item">
+                    <div class="thumb">
+                      <img class="img-fluid img-thumbnail" src="image/lillian.jpg" alt="lillian"
+                        class="p-3 rounded-circle" width="300">
+                    </div>
                     <h4>Lillian Toh</h4>
-                    <p class="text-secondary mb-1">Full-Stack Developer</p>
+                    <span>Full Stack Developer</span>
                     <p class="text-muted font-size-sm">Kuala Lumpur, Malaysia</p>
-                    <p class="text-muted font-size-sm">lillian.kimleng@gmail.com</p>
-                    <!-- <button class="btn btn-primary">Follow</button>
-                    <button class="btn btn-outline-primary">Message</button> -->
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                      <a class="btn btn-danger" href="mailto:lillian.kimleng@gmail.com">lillian.kimleng@gmail.com</a>
+                    </h5>
                   </div>
+                  <p>💻 Learning Microsoft Azure and Tailwind CSS</p>
+                  <p>📚 Clean Code by Robert Martin</p>
+                  <p>🍵 And a good cup of soy matcha</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                      <a href="https://lilliantoh.medium.com/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-globe mr-2 icon-inline">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <line x1="2" y1="12" x2="22" y2="12"></line>
+                          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a href="https://github.com/LillianToh" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-github mr-2 icon-inline">
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                          </path>
+                        </svg>
+                      </a>
+                      <a href="https://twitter.com/LillianToh" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-twitter mr-2 icon-inline text-info">
+                          <path
+                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a href="https://www.instagram.com/lilliantoh/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-instagram mr-2 icon-inline text-danger">
+                          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                      </a>
+                      <a href="https://www.facebook.com/lillian.toh1/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-facebook mr-2 icon-inline text-primary">
+                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                      </a>                
+                      <a href="https://www.linkedin.com/in/lillian-toh" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#0077b7" width="24" height="24" viewBox="0 0 24 24"
+                          class="feather feather-linkedin mr-2 icon-inline text-primary">
+                          <path
+                            d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+                        </svg>
+                      </a> 
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div class="card mt-3">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-globe mr-2 icon-inline">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <path
-                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                      </path>
-                    </svg>Website</h6>
-                    <a href="https://lilliantoh.medium.com/"  class="newTab" target="_blank">Lillian</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-github mr-2 icon-inline">
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                      </path>
-                    </svg>Github</h6>
-                    <a href="https://github.com/LillianToh"  class="newTab" target="_blank">Lillian</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-twitter mr-2 icon-inline text-info">
-                      <path
-                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                      </path>
-                    </svg>Twitter</h6>
-                  <a href="https://twitter.com/LillianToh"  class="newTab" target="_blank">Lillian</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-instagram mr-2 icon-inline text-danger">
-                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>Instagram</h6>
-                  <a href="https://www.instagram.com/lilliantoh/"  class="newTab" target="_blank">Lillian</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-facebook mr-2 icon-inline text-primary">
-                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>Facebook</h6>
-                  <a href="https://www.facebook.com/lillian.toh1/"  class="newTab" target="_blank">Lillian</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-                    <circle cx="4" cy="5" r="2"></circle>
-                    <rect x="2" y="10.25" width="4" height="11.75"></rect>
-                    <path d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10"/>
-                  </svg>
-                  LinkedIn</h6><a href="https://www.linkedin.com/in/lillian-toh"  class="newTab" target="_blank">Lillian</a>
-                </li>
-              </ul>
             </div>
           </div>
           <div class="col-md-8">
-                <div class="row gutters-sm">
-                  <div class="col-sm-12 mb-3">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <b>Avenue</b>
-                        <p>
-                          <i class="material-icons text-info mr-2">Solo and Final Collaboration Project</i>
-                        </p>                
-                        <hr>
-                        <div class="thumb">
-                          <img width="350px" height="200px" src="image/avenue/homepage.PNG"/> <img width="350px" height="200px" src="image/avenue/avenueform.PNG"/>
-                        </div>
-                        <h6>Description</h6>
-                        <span class="text-secondary">A unified platform to help property managers oversee large scale developments and consolidate owners' properties in a secured portal. The app consists of a dynamic dashboard, geo-mapping and embedded digital signature form to aid managers in their daily operational tasks.</span>                     
-                        <h6>Technology</h6>
-                        <span class="text-secondary">Bootstrap, React, Node/Express, MySQL, Leaflet API, Facebook Login API, HelloSign API, Nivo Chart</span>                  
-                        <h6>Github</h6>
-                        <a href="https://github.com/lilliantoh/avenue" class="newTab" target="_blank">Avenue</a>
-                      </div>
+            <div class="row gutters-sm">
+              <div class="col-sm-12 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>Avenue</b>
+                    <div class="pull-right">
+                      <span class="label label-info">Ongoing</span>
+                    </div>                 
+                    <p>
+                      <i class="material-icons text-info mr-2">Jan - Feb 2021</i>
+                    </p>
+                    <hr>
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="350px" height="200px"
+                        src="image/avenue/landing.PNG" />
+                      <img class="img-fluid img-thumbnail" width="350px" height="200px"
+                        src="image/avenue/newform.PNG" />
                     </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">A unified platform to help property managers oversee large scale
+                      developments and consolidate owners' properties in a secured portal. The app consists of a dynamic
+                      dashboard, geo-mapping and embedded digital signature form to aid managers in their daily
+                      operational tasks. It was initially a solo project and later collaborated with Jaseslin to
+                      finalise the app for the final presentation in the bootcamp.</span>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">Bootstrap, React, Node/Express, MySQL, Leaflet API, Facebook Login API,
+                      HelloSign API, Nivo Chart</span>
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                    <a href="https://github.com/lilliantoh/avenue" class="btn btn-default mt-5" role="button" target="_blank">More</a>
+                    </h5>
                   </div>
-                  
-                  <div class="col-sm-6 mb-3">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <b>VicTrees</b>
-                        <p>
-                          <i class="material-icons text-info mr-2"><a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po" class="newTab" target="_blank">Runner up</a> of The New Relic Hack The Planet 2021</i>
-                        </p>
-                        <hr>    
-                        <div class="thumb">
-                          <img width="340px" height="180px" src="image/victrees.png"/>
-                        </div>
-                        <h6>Description</h6>
-                        <span class="text-secondary">A global climate hackathon organised by DEV and New Relic that our team participated and won runner up after graduation. The app was created to combat deforestation and help the earth recover to a time when trees were abundant.</span>                   
-                        <h6>Technology</h6>
-                        <span class="text-secondary">Bootstrap, React, Node/Express, MySQL, Three.js, New Relic One, Leaflet API, Global Forest Watch API, Instagram API</span>                    
-                        <h6>Submission</h6>
-                        <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="newTab" target="_blank">VicTrees</a>
-                      </div>
-                    </div>
-                  </div>
+                </div>
+              </div>
 
-                  <div class="col-sm-6 mb-3">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <b>My School Admin</b>
-                        <p>
-                          <i class="material-icons text-info mr-2">Feature Extension Project</i>
-                        </p>                   
-                        <hr>                        
-                        <div class="thumb">
-                          <img width="340px" height="180px" src="image/myschooladmin.PNG"/>
-                        </div>
-                        <h6>Description</h6>
-                        <span class="text-secondary">A full-stack app to ease administrative workload on school teachers. The feature added was an attendance tracker that shows a list of teachers, their assigned subjects and students being taught.</span>                     
-                        <h6>Technology</h6>
-                        <span class="text-secondary">Bootstrap, Vue, Node/Express, MySQL</span> 
-                        <h6>Github</h6>
-                        <a href="https://github.com/LillianToh/myschooladmin-vue" class="newTab" target="_blank">MySchoolAdmin</a>
-                      </div>
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>VicTrees</b>
+                    <div class="pull-right">
+                      <span class="label label-success">Completed</span>
+                    </div>  
+                    <p>
+                      <i class="material-icons text-info mr-2"><a
+                          href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po"
+                          class="newTab" target="_blank">Runner up</a> of The New Relic Hack The Planet 2021</i>
+                    </p>
+                    <hr>
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="340px" height="180px" src="image/victrees.png" />
                     </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">A global climate hackathon organised by DEV and New Relic that our team
+                      participated and won runner up after graduation. The app was created to combat deforestation and
+                      help the earth recover to a time when trees were abundant.</span>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">Bootstrap, React, Node/Express, MySQL, Three.js, New Relic One, Leaflet
+                      API, Global Forest Watch API, Instagram API</span>
+                    <h5 class="d-flex flex-column align-items-center text-center">               
+                      <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="btn btn-default mt-5" role="button" target="_blank">More</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <b>My School Admin</b>
+                    <div class="pull-right">
+                      <span class="label label-success">Completed</span>
+                    </div>  
+                    <p>
+                      <i class="material-icons text-info mr-2">Jan 2021</i>
+                    </p>
+                    <hr>
+                    <div class="text-center">
+                      <img class="img-fluid img-thumbnail" width="340px" height="180px" src="image/myschooladmin.PNG" />
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">A full stack app to ease administrative workload on school teachers.
+                      The feature added was an attendance tracker that shows a list of teachers, their assigned subjects
+                      and students being taught.</span>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">Bootstrap, Vue, Node/Express, MySQL</span>
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                      <a href="https://github.com/LillianToh/myschooladmin-vue" class="btn btn-default mt-5" role="button" target="_blank">More</a>
+                    </h5>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </div>
+      </section>
       <!-- /Lillian -->
 
       <!-- Jannah -->
@@ -812,134 +763,121 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="image/jannah/profile.jpg" alt="Admin" class="rounded-circle"
-                    width="150">
+                  <img src="image/jannah/profile.jpg" alt="Jannah" class="img-fluid img-thumbnail p-3 rounded-circle" width="65%">
                   <div class="mt-3">
                     <h4>Jannah</h4>
-                    <p class="text-secondary mb-1">Software Engineer / QA</p>
+                    <p class="text-secondary mb-1">Software Engineer</p>
                     <p class="text-muted font-size-sm">Petaling Jaya, Selangor</p>
-                    <button class="btn btn-primary">Follow</button>
-                    <button class="btn btn-outline-primary">Message</button>
-                  </div>
+                    <a class="btn btn-primary" href="mailto:jannahworks@gmail.com">
+                    <!-- <a class="text-muted font-size-sm newTab" href="mailto:jannahworks@gmail.com"> -->
+                      jannahworks@gmail.com
+                    </a>
+                  </div>                  
                 </div>
               </div>
             </div>
             <div class="card mt-3">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-globe mr-2 icon-inline">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <path
-                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                      </path>
-                    </svg>Website</h6>
-                  <span class="text-secondary">Not Available</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-github mr-2 icon-inline">
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                      </path>
-                    </svg>Github</h6>
-                  <a href="https://github.com/njas17" class="newTab" target="_blank">njas17</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-twitter mr-2 icon-inline text-info">
-                      <path
-                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                      </path>
-                    </svg>Twitter</h6>
-                  <span class="text-secondary">Not Available</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-instagram mr-2 icon-inline text-danger">
-                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>Instagram</h6>
-                  <span class="text-secondary">Not Available</span>
-                </li> 
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-facebook mr-2 icon-inline text-primary">
-                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>Facebook</h6>
-                  <!-- <a href="https://www.linkedin.com/in/jannahshah/" class="newTab" target="_blank">jannahshah</a> -->
-                  <span class="text-secondary">Not Available</span>
-                </li>                
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#0077b7"  width="24" height="24" viewBox="0 0 24 24"
-                   class="feather feather-linkedin mr-2 icon-inline text-primary">
-                      <path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
-                    </svg>LinkedIn
-                  </h6>
-                  <a href="https://www.linkedin.com/in/jannahshah/" class="newTab" target="_blank">jannahshah</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div class="card mb-3">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Full Name</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Nurul Jannah Ahmad
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Email</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    jannahworks@gmail.com
-                  </div>
-                </div>
-                <hr>                
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Address</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Petaling Jaya, Selangor
-                  </div>
-                </div>
+              <div class="d-flex flex-column align-items-center text-center flex-wrap">
+                <a href="https://njas17.github.io/shy-shine/index.html" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-globe mr-2 icon-inline">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg></a>
+                <a href="https://github.com/njas17" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-github mr-2 icon-inline">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg></a>
+                <a href="https://www.linkedin.com/in/jannahshah/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="#0077b7" width="24" height="24" viewBox="0 0 24 24"
+                    class="feather feather-linkedin mr-2 icon-inline text-primary">
+                    <path
+                      d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+                  </svg></a>
               </div>
             </div>
+          </div>
+          <div class="col-md-8" data-spy="scroll" data-target=".navbar" data-offset="50">
             <div class="row gutters-sm">
               <div class="col-sm-12 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Sejiwa Web </i>Final Group Project</h6>
+                    <span class="label label-info">Ongoing</span>
+                    <div>
+                      <div class="pull-left">
+                        <h5 class="d-flex align-items-center mb-3"><i
+                            class="material-icons text-info mr-2"><strong>Sejiwa Web</strong>
+                          </i> ~ Final Group Project</h5>
+                      </div>
+                      <div class="pull-right">
+                        <h6 class="text-right">Feb 2021</h6>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
                     <hr>
                     <h6>Technology</h6>
-                    <span class="text-secondary">Vue JS, Vuetify, Node/Express, MySQL, Google Login API</span>
-                    <div class="thumb">
-                      <img width="350px" src="image/jannah/sejiwa-main-web.PNG"/> <img width="350px" src="image/jannah/sejiwa-member-web.PNG"/>
+                      <span class="text-secondary">Vue JS, Vuetify, Node/Express, MySQL, Google Login API, Jira, AWS, Firebase</span>
+                      <div class="margintop row">
+                        <div class="col-md-6"">
+                          <p class="thumbnail"><img src="image/jannah/sejiwa-main-web.PNG" /></p>
+                        </div>
+                        <div class="col-md-6">
+                          <p class="thumbnail"><img src="image/jannah/sejiwa-member-web.PNG" /></p>
+                        </div>
+                      </div>
+
+                      <h6>Description</h6>
+                      <span class="text-secondary">This is a group project with Esme-Marie to develop a charity web
+                        application. The purpose of the site is to gather volunteers
+                        for small organizations or individuals organizing a charity campaign. For Sejia members (the
+                        event organizer), they could create a volunteering event and monitor the volunteer
+                        applications.</span>
+                      <div class="margintop text-center">
+                        <a href="https://github.com/esme-marie/sejiwa" class="btn btn-default"  role="button" target="_blank">Sejiwa Github
+                          Repo</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <span class="label label-success">Completed</span>
+                    <div>
+                      <div class="pull-left">
+                        <h5 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2"><strong>Makan Bah!</strong></i> ~ Feature Extension Project</h5>
+                      </div>
+                      <div class="pull-right">
+                        <h6 class="text-right">Jan 2021</h6>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+
+                    <hr>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">React JS, Node/Express - Bcrypt & JSON Web Token, MySQL</span>
+                    <div class="thumbnail margintop">
+                      <img src="image/jannah/makanbah-web.PNG" />
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is a group project with Esme Marie to develop a charity web application. The purpose of the site is to gather volunteers 
-                      for small organizations or individuals organizing a charity campaign.</span>
- 
-                    <h6>Github</h6>
-                    <a href="https://github.com/esme-marie/sejiwa" class="newTab" target="_blank">Sejiwa Github Repo</a>
-                    
+                    <span class="text-secondary">This is a feature extension to an app developed by Khalilah called
+                      'Makan Bah!'. The extension consist of member login and logout features, a membership
+                      registration, a landing page, and the main page.
+                      The landing and main page components are built to differentiate between public and private
+                      access.</span>
 
+                    <div class="margintop text-center">
+                      <a href="https://github.com/njas17/ " class="btn btn-default" role="button" target="_blank">Makan Bah Github
+                        Repo</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -947,42 +885,35 @@
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Makan Bah!</i> Feature Extension Project</h6>
-                        <hr>
-                        <h6>Technology</h6>
-                        <span class="text-secondary">React JS, Node/Express - Bcrypt & JSON Web Token, MySQL</span>
-                        <div class="thumb">
-                          <img width="340px" src="image/jannah/makanbah-web.PNG"/>
-                        </div>
-                        <h6>Description</h6>
-                        <span class="text-secondary">This is a feature extension to an app developed by Khalilah called 'Makan Bah!'. The extension consist of member login and logout features, a membership registration, a landing page, and the main page. 
-                          The landing and main page components are built to differentiate between public and private access.</span>
-                        
-                        <h6>Github</h6>
-                        <a href="https://github.com/njas17/MakanBah" class="newTab" target="_blank">Makan Bah Github Repo</a>
-                  </div>
-                </div>
-              </div>
+                    <span class="label label-info">Ongoing</span>
+                    <div>
+                      <div class="pull-left">
+                        <h5 class="d-flex align-items-center mb-3"><i
+                            class="material-icons text-info mr-2"><strong>Bor-Lend</strong></i> ~ Solo Project</h5>
+                      </div>
+                      <div class="pull-right">
+                        <h6 class="text-right">Jan 2021</h6>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <hr>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">Vue JS, Node/Express, MySQL, Vue Bootstrap</span>
+                    <div class="thumbnail margintop">
+                      <img src="image/jannah/borlend-web.PNG" />
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">This is an individual project to develop a working MVP (minimum viable product). The site
+                      called Bor-Lend is a Borrow Lend Tracker web application. The purpose of the application is to
+                      monitor an individual's borrowing and lending activities. In addition, the application goal is to
+                      encourage healthy borrowing habits in the user.
+                      The main future extension will have the lending section, dashboard, member access and
+                      authentication features.
+                    </span>
 
-              <div class="col-sm-6 mb-3">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Bor-Lend</i> Solo MVP Project</h6>
-                        <hr>
-                        <h6>Technology</h6>
-                        <span class="text-secondary">Vue JS, Node/Express, MySQL, Vue Bootstrap</span>
-                        <div class="thumb">
-                          <img width="340px" src="image/jannah/borlend-web.PNG"/>
-                        </div>
-                        <h6>Description</h6>
-                        <span class="text-secondary">This is an individual project to develop a working MVP app. The site called Bor-Lend is a Borrow Lend Tracker web application. The purpose of the application is to monitor an individual's borrowing and lending activities. At the same time, the application goal is to encourage and instill healthy borrowing habits in the user. 
-                          The main future extension will have the lending section, dashboard, member access and authentication features.  
-                        </span>
-     
-                        <h6>Github</h6>
-                        <a href="https://github.com/njas17/bor-lend" class="newTab" target="_blank">Bor-lend Github Repo</a>
+                    <div class="margintop text-center">
+                      <a href="https://github.com/njas17/bor-lend" class="btn btn-default mt-5" role="button" target="_blank">Bor-lend Github Repo</a>
+                    </div>  
                   </div>
                 </div>
               </div>
@@ -999,8 +930,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="image/esme/esme-marie.jpg" alt="Admin" class="rounded-circle"
-                    width="150">
+                  <img src="image/esme/esme-marie.jpg" alt="Admin" class="rounded-circle" width="150">
                   <div class="mt-3">
                     <h4>Esme-Marie</h4>
                     <p class="text-secondary mb-1">Full Stack Developer</p>
@@ -1023,7 +953,7 @@
                         d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
                       </path>
                     </svg>Website</h6>
-                    <a href="https://esme-marie.github.io/"  class="newTab" target="_blank">portfolio| esme-marie</a>
+                  <a href="https://esme-marie.github.io/" class="newTab" target="_blank">portfolio| esme-marie</a>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -1033,7 +963,7 @@
                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                       </path>
                     </svg>Github</h6>
-                  <a href="https://github.com/esme-marie"  class="newTab" target="_blank">github| esme-marie</a>
+                  <a href="https://github.com/esme-marie" class="newTab" target="_blank">github| esme-marie</a>
                 </li>
                 <!-- <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -1065,12 +995,14 @@
                 </li> -->
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#0077b7"  width="24" height="24" viewBox="0 0 24 24"
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#0077b7" width="24" height="24" viewBox="0 0 24 24"
                       class="feather feather-linkedin mr-2 icon-inline text-primary">
-                      <path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+                      <path
+                        d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
                     </svg>LinkedIn
                   </h6>
-                  <a href="https://www.linkedin.com/in/esme-marie-m-sultan08/" class="newTab" target="_blank">linkedin| esme-marie</a>
+                  <a href="https://www.linkedin.com/in/esme-marie-m-sultan08/" class="newTab" target="_blank">linkedin|
+                    esme-marie</a>
                 </li>
               </ul>
             </div>
@@ -1128,25 +1060,31 @@
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">VicTrees</i> New Relic Hackathon</h6>
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">VicTrees</i> New
+                      Relic Hackathon</h6>
                     <hr>
                     <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global Forest Watch API, Instagram API, New Relic & Heroku</span>  
-                  
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global
+                      Forest Watch API, Instagram API, New Relic & Heroku</span>
+
                     <div class="thumb">
-                      <img width="340px" src="image/victrees.png"/>
+                      <img width="340px" src="image/victrees.png" />
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">A collaborative web application hackathon project with bootcamp classmates to create awareness and actionable steps towards combating deforestation. Won <a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po" class="newTab" target="_blank">Runner-Up!</a> 🙌🏻</span><br/><br/>
+                    <span class="text-secondary">A collaborative web application hackathon project with bootcamp
+                      classmates to create awareness and actionable steps towards combating deforestation. Won <a
+                        href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po"
+                        class="newTab" target="_blank">Runner-Up!</a> 🙌🏻</span><br /><br />
 
                     <!-- <h6>Github / Web App Link / Website Link</h6> -->
-                    <a href="https://github.com/lilliantoh/newrelic" class="newTab" target="_blank">GitHub| VicTrees</a><br/>
+                    <a href="https://github.com/lilliantoh/newrelic" class="newTab" target="_blank">GitHub|
+                      VicTrees</a><br />
                     <!-- <h6>Application Link</h6> -->
-                    <a href="https://victrees.herokuapp.com" class="newTab" target="_blank">Heroku| VicTrees</a><br/>
+                    <a href="https://victrees.herokuapp.com" class="newTab" target="_blank">Heroku| VicTrees</a><br />
                     <!-- <h6>Website Link</h6> -->
-                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="newTab" target="_blank">TheRelicans| VicTrees</a>
-                    
+                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1"
+                      class="newTab" target="_blank">TheRelicans| VicTrees</a>
+
                   </div>
                 </div>
               </div>
@@ -1156,17 +1094,21 @@
                   <div class="card-body">
                     <h6 class="d-flex align-items-center mb-3"><i
                         class="material-icons text-info mr-2">MySchoolAdmin</i> Solo Project</h6>
-                        <hr>
-                        <h6>Technology</h6>
-                        <span class="text-secondary">VueJS, Node/ExpressJS, MySQL, ApexCharts & Bootstrap</span>
-                        <div class="thumb">
-                          <img width="340px" src="image/esme/myschooladmin.png"/>
-                        </div>
-                        <h6>Description</h6>
-                        <span class="text-secondary">A minimum viable product(MVP) web application for teachers and school administrators to compile grades for student report cards. This is a work in progress with feature extensions wish-list. Personally using this app for my volunteering school administration work, at a private homeschool centre. 💁🏻‍♀️</span><br/><br/><br/>
-                        
-                        <!-- <h6>Github</h6> -->
-                        <a href="https://github.com/esme-marie/myschooladmin" class="newTab" target="_blank">MySchoolAdmin Github Repo</a>
+                    <hr>
+                    <h6>Technology</h6>
+                    <span class="text-secondary">VueJS, Node/ExpressJS, MySQL, ApexCharts & Bootstrap</span>
+                    <div class="thumb">
+                      <img width="340px" src="image/esme/myschooladmin.png" />
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">A minimum viable product(MVP) web application for teachers and school
+                      administrators to compile grades for student report cards. This is a work in progress with feature
+                      extensions wish-list. Personally using this app for my volunteering school administration work, at
+                      a private homeschool centre. 💁🏻‍♀️</span><br /><br /><br />
+
+                    <!-- <h6>Github</h6> -->
+                    <a href="https://github.com/esme-marie/myschooladmin" class="newTab" target="_blank">MySchoolAdmin
+                      Github Repo</a>
                   </div>
                 </div>
               </div>
@@ -1176,17 +1118,20 @@
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Sejiwa</i> Final Group Project</h6>
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">Sejiwa</i> Final
+                      Group Project</h6>
                     <hr>
                     <h6>Technology</h6>
-                    <span class="text-secondary">VueJS, Vuetify, Node/ExpressJS, MySQL, Google Sign-In, Firebase, Twitter, DonorBox, Stripe & Paypal</span>
+                    <span class="text-secondary">VueJS, Vuetify, Node/ExpressJS, MySQL, Google Sign-In, Firebase,
+                      Twitter, DonorBox, Stripe & Paypal</span>
                     <div class="thumb">
-                      <img width="340px" src="image/jannah/sejiwa-main-web.PNG"/> 
+                      <img width="340px" src="image/jannah/sejiwa-main-web.PNG" />
                       <!-- <img width="355px" src="image/jannah/sejiwa-member-web.PNG"/> -->
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">A collaborative web application project with Jannah for individuals or associations to create charity events and for individuals to sign-up as a volunteer. One heart, one soul! ❤️</span><br/><br/>
+                    <span class="text-secondary">A collaborative web application project with Jannah for individuals or
+                      associations to create charity events and for individuals to sign-up as a volunteer. One heart,
+                      one soul! ❤️</span><br /><br />
                     <!-- <h6>Github</h6> -->
                     <a href="https://github.com/esme-marie/sejiwa" class="newTab" target="_blank">Sejiwa Github Repo</a>
                   </div>
@@ -1196,17 +1141,19 @@
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Avenue</i> Feature Extension Project</h6>
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">Avenue</i>
+                      Feature Extension Project</h6>
                     <hr>
                     <h6>Technology</h6>
                     <span class="text-secondary">ReactJS & Bootstrap</span>
                     <div class="thumb">
-                      <img width="340px" src="image/esme/rent-calculator.png"/> 
+                      <img width="340px" src="image/esme/rent-calculator.png" />
                       <!-- <img width="355px" src="image/jannah/sejiwa-member-web.PNG"/> -->
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">A rent calculator for a property management web application called Avenue, initiated by Lillian. This feature extension comes in handy for managers to prepare online tenancy agreements. 😎</span><br/><br/>
+                    <span class="text-secondary">A rent calculator for a property management web application called
+                      Avenue, initiated by Lillian. This feature extension comes in handy for managers to prepare online
+                      tenancy agreements. 😎</span><br /><br />
                     <!-- <h6>Github</h6> -->
                     <a href="https://github.com/esme-marie/avenue" class="newTab" target="_blank">Avenue Github Repo</a>
                   </div>
@@ -1225,146 +1172,173 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-                  <img src="image/Isabelle photo.jpg" alt="Admin" class="rounded-circle"
-                    width="150">
-                  <div class="mt-3">
+                  <div class="member-item">
+                    <div class="thumb">
+                      <img class="img-fluid img-thumbnail" src="image/Isabelle photo.jpg" alt="Isabelle"
+                        class="p-3 rounded-circle" width="300">
+                    </div>
                     <h4>Isabelle Francis</h4>
-                    <p class="text-secondary mb-1">Full Stack Developer and Researcher (EduTech)</p>
+                    <span>Financial editor turned Full Stack Developer and EduTech Researcher</span>
                     <p class="text-muted font-size-sm">Selangor, Malaysia</p>
-                    <button class="btn btn-primary">Follow</button>
-                    <button class="btn btn-outline-primary">Message</button>
+                    <h5 class="d-flex flex-column align-items-center text-center">
+                      <a href="mailto:belle1306@gmail.com" class="newTab" target="_blank">
+                        <button class="btn btn-danger">belle1306@gmail.com </button>
+                      </a>
+                    </h5>
                   </div>
+                  <p>💻 Developing skills in eyetracking, blockchain</p>
+                  <p>📚 Currently reading Educated by Tara WestOver</p>
+                  <p>📚 Rudyard Kipling wannabe, written mostly financial,economy articles(click globe)
+                    </p>
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                      <a href="https://muckrack.com/isabelle-francis-3" class="newTab" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-linkedin mr-2 icon-inline">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <line x1="2" y1="12" x2="22" y2="12"></line>
+                          <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a href="https://github.com/belle1306" class="newTab" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-github mr-2 icon-inline">
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                          </path>
+                        </svg>
+                      </a>
+                      
+                      <a href="https://www.instagram.com/ethnic_kraft/" class="newTab" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-instagram mr-2 icon-inline text-danger">
+                          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                      </a>
+                      <a href="https://www.facebook.com/isabelle_bungan_francis/" class="newTab" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-facebook mr-2 icon-inline text-primary">
+                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a href="https://www.linkedin.com/in/isabelle-francis-703493a1/" class="newTab" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-linkedin">
+                          <circle cx="4" cy="5" r="2"></circle>
+                          <rect x="2" y="10.25" width="4" height="11.75"></rect>
+                          <path
+                            d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10" />
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div class="card mt-3">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-globe mr-2 icon-inline">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <path
-                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                      </path>
-                    </svg>Website</h6>
-                    <a href="https://isabelle-francis-resume-ilsxm.ondigitalocean.app/"  class="newTab" target="_blank">Isabelle Francis</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                      class="feather feather-github mr-2 icon-inline">
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                      </path>
-                    </svg>Github</h6>
-                  <a href="https://github.com/belle1306/"  class="newTab" target="_blank">Belle1306 github</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-facebook mr-2 icon-inline text-primary">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                  </svg>Facebook</h6>
-                  <a href="https://facebook.com/isabelle_bungan_francis"  class="newTab" target="_blank">Isabelle Bungan Francis</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0">Publication</h6>
-                  <a href="https://www.zotero.org/isabelle_bungan_francis"  class="newTab" target="_blank">Zotero</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0">Articles in The Edge, Asian Banker, Nikkei Asia Review etc</h6>
-                  <a href="https://muckrack.com/isabelle-francis-3/"  class="newTab" target="_blank">MuckRack Isabelle</a>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                  <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-                    <circle cx="4" cy="5" r="2"></circle>
-                    <rect x="2" y="10.25" width="4" height="11.75"></rect>
-                    <path d="M17.3837 10c-1.8723 0-3.1275.9705-3.6414 1.891h-.0515v-1.6H10V22h3.8448v-5.7923c0-1.527.3074-3.0062 2.3097-3.0062 1.9735 0 1.9998 1.7467 1.9998 3.1043V22H22v-6.4224C22 12.4252 21.2806 10 17.3837 10"/>
-                  </svg>
-                  LinkedIn</h6><a href="https://www.linkedin.com/in/isabelle-francis-703493a1/"  class="newTab" target="_blank">Isabelle</a>
-                </li>
-              </ul>
             </div>
           </div>
-          <div class="col-md-8">
-            <div class="card mb-3">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Full Name</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Isabelle Francis
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Email</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    belle1306@gmail.com
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Phone</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    (016)-3221306
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Mobile</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    (016)-3221306
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0">Address</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    Paramount Garden, 46300, Selangor
-                  </div>
-                </div>
-              </div>
-            </div>
+          
+
             <div class="row gutters-sm">
               <div class="col-sm-6 mb-3">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h6 class="d-flex align-items-center mb-3"><i
-                        class="material-icons text-info mr-2">Victrees</i> New Relic Hackathon</h6>
-                        <a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po" class="newTab" target="_blank">Runner-Up</a>
-                        
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">Victrees</i> New
+                      Relic Hackathon</h6>
+                    <a href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po"
+                      class="newTab" target="_blank">Runner-Up</a>
+
                     <h6>Technology</h6>
-                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global Forest Watch API, Instagram API, Heroku, New Relic</span>  
-                  
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, Leaflet API, Global
+                      Forest Watch API, Instagram API, Heroku, New Relic</span>
+
                     <div class="thumb">
-                      <img width="346px" src="image/victrees.png"/>
+                      <img width="346px" src="image/victrees.png" />
                     </div>
                     <h6>Description</h6>
-                    <span class="text-secondary">This is the first hackathon we participated after our bootcamp graduation. This is a group project to create a site to combat deforestation and help the earth recover to a time when trees were abundant.</span>
+                    <span class="text-secondary">This is the first hackathon we participated after our bootcamp
+                      graduation. This is a group project to create a site to combat deforestation and help the earth
+                      recover to a time when trees were abundant.</span>
 
                     <h6>Github</h6>
                     <a href="https://github.com/lilliantoh/newrelic" class="newTab" target="_blank">Victrees</a>
                     <h6>Application Link</h6>
                     <a href="https://victrees.herokuapp.com" class="newTab" target="_blank">Victrees</a>
                     <h6>Website Link</h6>
-                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1" class="newTab" target="_blank">Victrees</a>
-                    
+                    <a href="https://www.therelicans.com/lilliantoh/victrees-fight-deforestation-victoriously-1bc1"
+                      class="newTab" target="_blank">Victrees</a>
+
                   </div>
                 </div>
               </div>
-              
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">EyeReader</i> A
+                      work in progress which started just as an mvp project during the bootcamp.</h6>
+
+                    <h6>Technology</h6>
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, WebGazer </span>
+
+                    <div class="thumb">
+                      <img width="346px" src="image/eyereader.png" />
+                    </div>
+                    <h6>Description</h6>
+                    EyeReader uses webgazer, an eyetracking tool in reactjs library. The app is being developed as a
+                    research tool to investigate eyetracking as a tool for rapid reading assessment
+                    <h6>Snap shot of features</h6>
+                    <div class="thumb">
+                      <img width="346px" src="image/ballcollision.png" />
+                    </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">Infinity</i> A
+                      collaborative project with Khalilah. Infinity is an interactive and 3D learning platform of the
+                      solar system</h6>
+
+                    <h6>Technology</h6>
+                    <span class="text-secondary">React JS, Node/Express, MySQL, Bootstrap, Three JS, NASA API </span>
+
+                    <div class="thumb">
+                      <img width="346px" src="image/infinity.png" />
+                    </div>
+                    <h6>Description</h6>
+                    <span class="text-secondary">This was a collaborative project during our bootcamp. It is an
+                      interactive and 3D learning platform about the solarsystem. The features include NASA
+                      APOD(external API) and SOLARSCOPE(iframe)> <h6>Github</h6>
+                      <a href="https://github.com/belle1306/infinity" class="newTab" target="_blank">Infinity code in
+                        github</a>
+                      <h6>Snap shot of features</h6>
+                      <div class="thumb">
+                        <img width="346px" src="image/nasaapod.png" />NASA APOD
+                      </div>
+                      <div class="thumb">
+                        <img width="346px" src="image/solarscope.png" />SOLARSCOPE
+                      </div>
+
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </div>

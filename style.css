@@ -109,3 +109,25 @@ img {
   border-radius: 10px;
 }
 
+.member-item .thumb img {
+  float: left;
+  height: 400px;
+  object-fit: cover;
+}
+
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+
+.thumbnail img {
+  border-radius: 2px;
+}
+
+.btn-default {
+  background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+}
+
+.margintop {
+  margin-top: 12px;
+}
