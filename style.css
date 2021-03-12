@@ -122,3 +122,6 @@ img {
   background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
 }
 
+.margintop {
+  margin-top: 12px;
+}
