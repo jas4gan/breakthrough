@@ -113,3 +113,8 @@ img {
   max-width: 80%;
   height: auto;
 }
+
+.thumbnail img {
+  border-radius: 2px;
+}
+
