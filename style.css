@@ -76,12 +76,12 @@ body {
   margin-top: 30px;
   /* overflow: hidden; */
   padding: 20px;
-  background-color:white;
+  background-color: white;
   text-align: center;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
-/* stops bg color from leaking outside the border: */;
+  /* stops bg color from leaking outside the border: */
 }
 
 .member-item .thumb {
@@ -125,9 +125,13 @@ img {
 }
 
 .btn-default {
-  background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+  background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
 }
 
+.text1 {
+  font-style: italic;
+  text-align: center;
+  align-items: center;
 .margintop {
   margin-top: 12px;
 }
