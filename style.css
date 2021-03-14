@@ -27,6 +27,7 @@ body {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1rem;
+  padding-top: 2rem;
 }
 
 .gutters-sm {
@@ -122,6 +123,7 @@ img {
 
 .thumbnail img {
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .btn-default {
@@ -130,4 +132,23 @@ img {
 
 .margintop {
   margin-top: 12px;
+}
+
+.member-item-profile {
+  padding: 5px;
+  background-color:white;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+/* stops bg color from leaking outside the border: */;
+}
+
+.card-body-profile {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.meme {
+  margin-top: 29px;
 }
