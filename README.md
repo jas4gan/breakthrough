@@ -1,4 +1,4 @@
-# reakthrough
+# Breakthrough
 
 ## Setting up 
 Open git bash and go to the path you want this file to be located
